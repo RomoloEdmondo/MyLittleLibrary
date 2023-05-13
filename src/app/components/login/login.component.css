@@ -1,0 +1,147 @@
+/* section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+} */
+
+/* ---------------------------------------------------- */
+.centered {
+  position: absolute;
+  bottom: 100px;
+  left: 48%;
+  /* transform: translateX(-50%); */
+
+}
+.logo {
+  width: 11%;
+  height: auto;
+}
+
+
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+.centered-box {
+  width: 200px;
+  height: 120px;
+  background-color: #0076b62c;
+  color: #080808;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+
+}
+
+.centered-box p {
+  text-align: center;
+
+}
+
+
+/* ------------FOOTER--------------- */
+/* .footer {
+  background-color: #0077b6 ;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+} */

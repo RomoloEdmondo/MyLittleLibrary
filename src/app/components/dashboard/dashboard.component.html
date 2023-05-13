@@ -1,0 +1,28 @@
+
+
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened>
+    <mat-list role="list">
+      <mat-list-item role="listitem" routerLink="seite1" [routerLinkActive]="'active'">Home</mat-list-item>
+      <mat-list-item role="listitem" routerLink="seite2" [routerLinkActive]="'active'">My Books</mat-list-item>
+      <mat-list-item role="listitem" routerLink="seite3" [routerLinkActive]="'active'">Seite 3</mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+
+      <span>My Little Library</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="logout()">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </mat-toolbar>
+    <app-footer></app-footer>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+
+

@@ -1,0 +1,29 @@
+<div class="centered-box">
+  <p>Einloggen  mit:</p>
+  <p>Email: <strong>test@test.de</strong></p>
+  <p>Password: <strong>Test.de</strong> </p>
+</div>
+
+
+
+<form class="login-form" #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+  <h2>Login</h2>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required ngModel>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required ngModel>
+  </div>
+  <button type="submit">Login</button>
+  <div class="register-link">
+    Noch kein Konto? <a routerLink="/register" >Hier registrieren</a>
+  </div>
+</form>
+
+<div class="centered">
+  <img class="logo" src="assets/angular-logo.png" alt="Logo">
+</div>
+
+

@@ -1,0 +1,17 @@
+
+<h2 class="search-header" style="text-align: center;">Buch suchen</h2>
+<form class="form-books">
+  <input class="search-input" type="text" [(ngModel)]="query" name="query" placeholder="Geben Sie den Titel des Buches ein">
+  <button class="search-button" type="submit" (click)="searchBooks()">Suchen</button>
+</form>
+
+
+<div class="books-container" *ngIf="books">
+  <div class="book" *ngFor="let book of books">
+    <img src="{{book.thumbnail}}" alt="{{book.title}}">
+    <h3 class="bold-text">{{book.title}}</h3>
+    <p>{{book.authors.join(', ')}}</p>
+    <p>{{book.publisher}} ({{book.publishedDate}})</p>
+  </div>
+</div>
+

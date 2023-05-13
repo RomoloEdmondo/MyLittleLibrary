@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/my-little-library-ng",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

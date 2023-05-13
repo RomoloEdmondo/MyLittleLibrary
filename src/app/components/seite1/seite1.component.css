@@ -1,0 +1,82 @@
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.book {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.book img {
+  width: 128px;
+  height: 192px;
+  margin-bottom: 10px;
+}
+
+.book h3 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.book p {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+/* ----------------------------------------------- */
+
+.bold-text {
+  font-weight: bold;
+}
+
+.form-books{
+  text-align: center;
+}
+
+.search-header {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.search-form {
+  /* display: flex; */
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.search-input {
+  /* flex-grow: 1; */
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+
+}
+
+.search-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #3e8e41;
+}
+
